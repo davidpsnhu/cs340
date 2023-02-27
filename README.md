@@ -1,12 +1,3 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2513
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
-{\colortbl;\red255\green255\blue255;\red42\green49\blue64;\red245\green245\blue246;}
-{\*\expandedcolortbl;;\cssrgb\c21569\c25490\c31765;\cssrgb\c96863\c96863\c97255;}
-\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\deftab720
-\pard\pardeftab720\sa400\partightenfactor0
-
-\f0\fs32 \cf2 \cb3 \expnd0\expndtw0\kerning0
 CS 340\
 Read Me\
 When I write maintainable, readable, and adaptable programs, I think it's helpful to use a modular approach. Rather than creating a single block of code with all the functions, classes, and main, it's better to organize files into classes, with associated getter and setter functions. Main should be in its own file, and helper functions can be in libraries. This approach allows individual libraries to be tweaked or fixed, with any code importing them benefiting from those changes.\cb1 \
